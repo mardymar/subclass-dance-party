@@ -1,16 +1,7 @@
-div {
-    margin: 20px;
-    width: 100px;
-    height: 100px;
-    background: #f00;
 
-    /* The animation part: */
-    animation-name: spin;
-    animation-duration: 4000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+var MakeSpinDancer = function(top, left) {
+  MakeDancer.call(this, top, left, 'spindancer');
 }
-@keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
-}
+
+MakeSpinDancer.prototype = Object.create(MakeDancer.prototype);
+MakeSpinDancer.prototype.constructor = MakeSpinDancer;
