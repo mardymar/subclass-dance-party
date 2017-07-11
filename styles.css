@@ -21,12 +21,17 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  background-image: url(https://weaponsandwarfare.files.wordpress.com/2015/12/attila-039-s-real-face-4.jpg);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height: 30px;
-  width: 30px;
 
+  content:url("https://weaponsandwarfare.files.wordpress.com/2015/12/attila-039-s-real-face-4.jpg");
+
+  position:absolute;
+  height: 50px;
+  width: 50px;
+
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 
 }
 /*.dancer{

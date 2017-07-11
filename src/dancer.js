@@ -4,7 +4,7 @@ var MakeDancer = function(top, left, timeBetweenSteps) {
 
 
   // use jQuery to create an HTML <span> tag
-  this.$node = $('<span class="dancer"><img src="https://weaponsandwarfare.files.wordpress.com/2015/12/attila-039-s-real-face-4.jpg"></span>');
+  this.$node = $('<span class="dancer"></span>');
   this.timeBetweenSteps = timeBetweenSteps;
 
   this.setPosition(top, left);
