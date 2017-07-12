@@ -20,7 +20,6 @@ MakeDancer.prototype.setPosition = function(top, left){
 
 MakeDancer.prototype.setImage = function(){
   var imageArr = [];
-  imageArr.push('url(https://vignette2.wikia.nocookie.net/world-of-warriors/images/8/80/Atilla.png/revision/latest?cb=20141222170229)');
   imageArr.push('url(https://archive.lolrus.mediamolecule.com/2014/uploads/wordpress/2009/08/blog_genghis.png)');
   imageArr.push('url(https://storybookstorage.s3.amazonaws.com/items/images/000/600/025/original/20161122-7-rzfnfo.png?1479797361)');
   imageArr.push('url(http://www.gifs.net/Animation11/Geography_and_History/Asia/Mongol.gif)');

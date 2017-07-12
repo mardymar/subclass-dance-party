@@ -14,7 +14,7 @@ describe('dancer', function() {
     expect(dancer.$node).to.be.an.instanceof(jQuery);
   });
 
-  it('should NOT functions from other classes', function() {
+  it('should NOT have functions from other classes', function() {
     expect(dancer.charge).to.not.exist;
     expect(dancer.execute).to.not.exist;
     expect(dancer.step).to.not.exist;
